@@ -11,3 +11,5 @@ class PlaceAdmin(admin.ModelAdmin):
 
 
 admin.site.register(models.Place, PlaceAdmin)
+admin.site.register(models.Service)
+admin.site.register(models.PlaceService)
